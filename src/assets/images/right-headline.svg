@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="164px" height="178px" viewBox="0 0 164 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7B7F4C55-4264-4ECB-AD5E-99AA7BAF10C2</title>
+    <defs>
+        <path d="M100.792665,-38.2073348 L100.792665,-38.2073348 L100.792665,-38.2073348 L100.65593,38.4553537 C100.594492,72.9012708 72.6533066,100.792665 38.2073348,100.792665 L38.2073348,100.792665 L38.2073348,100.792665 L38.34407,24.1299767 C38.4055076,-10.3159404 66.3466934,-38.2073348 100.792665,-38.2073348 Z" id="path-1"></path>
+        <filter x="-30.4%" y="-12.2%" width="160.7%" height="127.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.132320804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="FInal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Privacy-Policy" transform="translate(-1247.000000, -192.000000)">
+            <g id="Group-3" transform="translate(1261.125748, 204.377633)">
+                <path d="M56.9743952,74.6660356 C78.7263909,74.6660356 96.3598675,92.2995122 96.3598675,114.051508 C96.3598675,114.074397 96.3598475,114.097286 96.3598076,114.120175 L96.2716827,164.666036 L96.2716827,164.666036 C74.519687,164.666036 56.8862105,147.032559 56.8862105,125.280563 C56.8862105,125.257674 56.8862304,125.234785 56.8862703,125.211896 L56.9743952,74.6660356 L56.9743952,74.6660356 Z" id="Rectangle-Copy-3" fill="#FFA727" transform="translate(76.623039, 119.666036) scale(1, -1) translate(-76.623039, -119.666036) "></path>
+                <g id="Rectangle-Copy-6" transform="translate(69.500000, 31.292665) scale(-1, 1) rotate(-90.000000) translate(-69.500000, -31.292665) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#E65100" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Oval-Copy-2" fill="#D8D8D8" cx="129.77679" cy="97.0558091" r="14.9101203"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

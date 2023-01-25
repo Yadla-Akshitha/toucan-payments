@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="177px" viewBox="0 0 151 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>52AE567D-BBBE-434B-9273-4A7A896A530C</title>
+    <defs>
+        <path d="M27.9229562,0 L45.6543901,0 C63.3275021,-6.79921168e-15 77.6543901,14.326888 77.6543901,32 C77.6543901,32.0234744 77.6543643,32.0469488 77.6543126,32.0704231 L77.5268254,90 L77.5268254,90 L59.7953916,90 C42.1222796,90 27.7953916,75.673112 27.7953916,58 C27.7953916,57.9765256 27.7954174,57.9530512 27.7954691,57.9295769 L27.9229562,0 L27.9229562,0 Z" id="path-1"></path>
+        <filter x="-37.9%" y="-18.9%" width="175.7%" height="142.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.132320804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M66.9229562,85 L116.724891,85 L116.526825,175 L98.7953916,175 C81.1222796,175 66.7953916,160.673112 66.7953916,143 C66.7953916,142.976526 66.7954174,142.953051 66.7954691,142.929577 L66.9229562,85 L66.9229562,85 Z" id="path-3"></path>
+        <filter x="-37.9%" y="-18.9%" width="175.9%" height="142.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.132320804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="FInal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04.1-Blogs" transform="translate(-1263.000000, -130.000000)">
+            <g id="Group" transform="translate(1263.000000, 140.043668)">
+                <g id="Rectangle-Copy-7">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFA727" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle-Copy-8" transform="translate(91.724891, 130.000000) rotate(-90.000000) translate(-91.724891, -130.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#E65100" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <circle id="Oval-Copy-4" fill="#D8D8D8" cx="16" cy="105.349345" r="16"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

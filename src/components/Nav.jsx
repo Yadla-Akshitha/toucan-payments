@@ -6,7 +6,7 @@ const Nav = () => {
     <>
       <div>logo</div>
       <ul>
-      <li><Link to="/">Home</Link></li>
+      <li className="text-red-600"><Link to="/">Home</Link></li>
       <li><Link to="/">Support</Link></li>
       <li><Link to="/">About</Link></li>
       </ul>

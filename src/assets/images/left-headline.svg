@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="113px" height="115px" viewBox="0 0 113 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0F587917-2147-40EB-A746-9140FC992F12</title>
+    <defs>
+        <path d="M0.198065408,0 L17.9294993,0 C35.6026112,-6.79921168e-15 49.9294993,14.326888 49.9294993,32 C49.9294993,32.0234744 49.9294734,32.0469488 49.9294218,32.0704231 L49.8019346,90 L49.8019346,90 L32.0705007,90 C14.3973888,90 0.0705007471,75.673112 0.0705007471,58 C0.0705007471,57.9765256 0.0705265774,57.9530512 0.070578238,57.9295769 L0.198065408,0 L0.198065408,0 Z" id="path-1"></path>
+        <filter x="-37.9%" y="-18.9%" width="175.7%" height="142.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.132320804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="FInal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Privacy-Policy" transform="translate(-87.000000, -241.000000)">
+            <g id="Group" transform="translate(99.724891, 251.043668)">
+                <g id="Rectangle-Copy-7">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#E65100" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Oval-Copy-4" fill="#D8D8D8" cx="84.2751092" cy="16.349345" r="16"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
