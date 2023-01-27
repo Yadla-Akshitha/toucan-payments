@@ -3,6 +3,8 @@ import toucanDashboard from "../assets/images/toucan_banner_1.png";
 import shopeefix from "../assets/images/Shopeefix_Logo.png";
 import Qfix from "../assets/images/Qfix_Navy_Logo.png";
 import bhagwaanji from "../assets/images/Bhagwaanji_logo.png";
+import { flexible_objects } from '../objects.jsx/flexibility';
+import modular from "../assets/images/icons/Modular.svg";
 
 const Home = () => {
   return (
@@ -31,14 +33,29 @@ const Home = () => {
           <img src={bhagwaanji} alt="shopeefix" className="w-28 lg:w-40 m-2" />
         </div>
       </div>
-      <div>
-        {/** powerful modules */}
+      {/** powerful modules */}
+      <div className="">
+        <h3 className="text-secondary">Toucan Powerful Modules</h3>
       </div>
-      <div>
-        {/** Why Toucan */}
+      {/** Why Toucan */}
+      <div className="px-2 py-8 bg-lightgrey text-left px-[25rem]">
+        <h3 className="text-secondary font-bold text-lg">Why Toucan</h3>
+        <p className="font-roboto font-semibold sm:w-64 text-[18px] lg:text-4xl lg:my-4 lg:w-3/4">Flexibility enabled platform that suits multiple merchant types and sizes</p>
+        <div className="flex flex-col md:flex-row md:flex-wrap">
+          {
+            flexible_objects.map((item) => (
+              <div className="w-60 lg:w-[340px] mt-4 m-2">
+                <img src={item.icon} alt={item.title} className="w-10 md:w-12" />
+                <h4 className="mt-4 mb-2 font-bold">{item.title}</h4>
+                <p className="text-gray-600 text-xs">{item.des}</p>
+              </div>
+            ))
+          }
+        </div>
       </div>
+      {/** Developer */}
       <div>
-        {/** Developer */}
+        
       </div>
       <div>
         {/** Contact us */}
