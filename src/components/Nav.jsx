@@ -27,7 +27,7 @@ const Nav = () => {
   }, [sidebar])
   
   const handleClick = () => {
-    if (sidebar == false) {
+    if (sidebar === false) {
       setSidebar(true);
     }else {
       setSidebar(false)
@@ -39,9 +39,9 @@ const Nav = () => {
   }
 
   return (
-    <div className="w-full h-20 flex justify-center items-center bg-gray-100">
-      <nav className="w-full px-2 md:px-6 lg:px-[25rem] z-0 fixed flex justify-between items-center">
-        <Link to="/"><img src={logo} alt="logo" className="h-[30px] w-auto lg:h-[32px]" /></Link>
+    <div className="w-full h-[59px] fixed top-0 lg:h-20 bg-gray-50">
+      <nav className="w-full px-2 md:px-6 lg:px-[25rem] z-0 flex justify-between items-center">
+        <Link to="/"><img src={logo} alt="logo" className="h-[30px] mt-5 w-auto lg:h-[32px]" /></Link>
         <div className="flex">
           <ul className="hidden lg:flex justify-center items-center">
             <li className="w-full text-left px-4">Product</li>
@@ -61,7 +61,7 @@ const Nav = () => {
         </div>
       </nav>
       {/* Sidebar */}
-      <div ref={ref} className={(sidebar)? "w-4/5 md:2/4 bg-[#191612] h-full visible fixed inset-0 z-10" : "invisible"}>
+      <div ref={ref} className={(sidebar)? "w-4/5 md:2/4 bg-[#191612] h-full visible fixed inset-0 z-30" : "invisible"}>
         <div className="h-32 w-full flex justify-center border-gray-500 border-b">
           <img src={logo_circle} alt="Toucan_payments_logo" className="w-12" />
         </div>
