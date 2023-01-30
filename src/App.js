@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div className="font-roboto">
       <Nav />
         <Routes>
           <Route index element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
           <Route path="/support" element={<Support />} />
         </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
