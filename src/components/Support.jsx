@@ -3,18 +3,19 @@ import email from "../assets/images/icons/email.svg";
 import location from "../assets/images/icons/locations.svg";
 import phone from "../assets/images/icons/phone.svg";
 import operational_hours from "../assets/images/icons/oprational_hourse.svg";
+import end_to_end from "../assets/images/End-to-End_support.png";
 
-const Support = () => {
+function Support() {
   return (
-    <div className="bg-primary2 mt-16 text-white">
-      <div className="px-2">
+    <div className="bg-bg-lightgrey2 mt-16">
+      <div className="px-2 bg-primary2 text-white">
         <h1 className="font-extrabold text-[28px] pt-10">Support</h1>
         <p className="text-bg-lightgrey2 text-lg pb-4 pt-3">Got a query on the platform? let us clarify it to you!</p>
       </div>
-      <div className="bg-bg-lightgrey2 text-primary px-3">
+      <div className="px-3">
         <h2 className="text-[28px] font-bold pt-10">Reach Us Here</h2>
         <p className="text-bg-black mt-2">Dedicated Support team to assist you 24/7</p>
-        <div className="w-full bg-white rounded-lg">
+        <div className="w-full bg-white rounded-xl shadow-2xl mb-9 pb-8">
           <div>
             <div className="flex item-start m-4 pt-6">
               <img src={email} alt="image" className="w-8" />
@@ -49,19 +50,25 @@ const Support = () => {
               <div className="pl-4">
                 <p className="font-bold">Operational Hours</p>
                 <p className="text-bg-black text-sm">
-                  <span>Mon - Fri : 9AM - 7PM</span><br/>
+                  <span>Mon - Fri : 9AM - 7PM</span><br />
                   <span>Sat : 9AM - 1PM</span>
                 </p>
               </div>
             </div>
           </div>
-          <div className="bg-accent w-11/12 mx-auto rounded-lg">
-            <h2 className="text-[32px] text-center">Dedicated support team to assist you 24/7</h2>
+          <div className="bg-bg-yellow w-11/12 mx-auto py-2 rounded-2xl">
+            <h2 className="text-[32px] text-text font-bold leading-tight text-center py-8">Dedicated support team to assist you 24/7</h2>
+            <div className="text-center">
+              <button className="bg-secondary text-white p-2 rounded-md w-52 uppercase">Request a call back</button>
+            </div>
+            <img src={end_to_end} alt="end_to_end" className="w-8/12 text-center my-4 mx-auto" />
           </div>
         </div>
       </div>
+
+      <h2 className=" text-center mx-4 font-extrabold text-[28px]">Frequently Asked Questions</h2>
     </div>
   );
-};
+}
 
 export default Support;

@@ -12,7 +12,7 @@ import end_to_end from "../assets/images/End-to-End_support.png";
 
 const Home = () => {
   return (
-    <div className="bg-bg-lightgrey2 text-primary mt-20 lg:mt-24">
+    <div className="bg-bg-lightgrey2 mt-20 lg:mt-24">
       {/**Dashboard */}
       <div className="flex flex-col md:flex-row justify-center items-center md:pl-8">
         <div className="mx-4 mt-[60px] md:mt-0 text-left md:w-1/2 lg:pl-[23rem] lg:mx-0">

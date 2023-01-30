@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-roboto">
+    <div className="font-roboto text-primary">
       <Nav />
         <Routes>
           <Route index element={<Home />} />
