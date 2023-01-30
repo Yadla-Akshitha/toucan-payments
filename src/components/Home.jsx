@@ -12,7 +12,7 @@ import end_to_end from "../assets/images/End-to-End_support.png";
 
 const Home = () => {
   return (
-    <div className="bg-bg-lightgrey2 mt-20 lg:mt-24">
+    <div className="bg-bg-lightgrey2 mt-20 lg:mt-14">
       {/**Dashboard */}
       <div className="flex flex-col md:flex-row justify-center items-center md:pl-8">
         <div className="mx-4 mt-[60px] md:mt-0 text-left md:w-1/2 lg:pl-[23rem] lg:mx-0">
@@ -48,7 +48,7 @@ const Home = () => {
         <div className="w-full flex flex-col md:flex-row md:flex-wrap">
           {
             flexible_objects.map((item) => (
-              <div className="w-full lg:w-[340px] mt-4 px-4 lg:m-2">
+              <div key={item.id} className="w-full lg:w-[340px] mt-4 px-4 lg:m-2">
                 <img src={item.icon} alt={item.title} className="w-10 md:w-12" />
                 <h4 className="mt-4 mb-2 font-bold">{item.title}</h4>
                 <p className="text-gray-600 text-sm">{item.des}</p>
@@ -88,10 +88,12 @@ const Home = () => {
       </div>
       {/** Contact us */}
       <div className="lg:px-[25rem]">
-        <div className="mt-24 bg-bg-yellow rounded-3xl w-11/12 mx-auto text-center">
-          <h2 className="uppercase text-[28px] font-extrabold m-4 px-10 pt-8">Your needs, our solutions!</h2>
-          <Link to="/contact"><button className="uppercase bg-secondary text-white py-3 font-bold w-48 rounded">Contact us</button></Link>
-          <img src={end_to_end} alt="end-to-end-support" className="w-11/12 py-4 mx-auto" />
+        <div className="mt-24 bg-bg-yellow rounded-3xl w-11/12 mx-auto text-center lg:flex lg:flex-row justify-center items-center">
+          <div className="lg:w-1/2 lg:flex flex-col justify-start items-start">
+            <h2 className="uppercase lg:text-left text-[28px] font-extrabold m-4 px-10 pt-8 lg:text-[48px]">Your needs, our solutions!</h2>
+            <Link to="/contact"><button className="uppercase bg-secondary text-white py-3 font-bold w-48 rounded lg:ml-14">Contact us</button></Link>
+          </div>
+          <img src={end_to_end} alt="end-to-end-support" className="w-11/12 lg:w-1/2 py-4 mx-auto" />
         </div>
         <div>
           <h6 className="text-secondary font-bold text-[18px] px-5 pt-10">Customer And Partner Stories</h6>

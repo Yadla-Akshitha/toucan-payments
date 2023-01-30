@@ -11,9 +11,6 @@ const Nav = () => {
   
   useEffect(() => {
     const checkIfClickedOutside = e => {
-      console.log(e.target);
-      console.log(button);
-      console.log(e.target !== button);
       if (sidebar && ref.current && !ref.current.contains(e.target) && e.target !== button ) {
         setSidebar(false)
       }
@@ -24,7 +21,7 @@ const Nav = () => {
     return () => {
       document.removeEventListener("mousedown", checkIfClickedOutside)
     }
-  }, [sidebar])
+  }, [sidebar, button])
   
   const handleClick = () => {
     if (sidebar === false) {
@@ -39,10 +36,10 @@ const Nav = () => {
   }
 
   return (
-    <div className="w-full h-[59px] fixed top-0 lg:h-20 bg-gray-50">
+    <div className="w-full h-[59px] fixed bg-bg-lightgrey shadow-lg top-0 py-2">
       <nav className="w-full px-2 md:px-6 lg:px-[25rem] z-0 flex justify-between items-center">
-        <Link to="/"><img src={logo} alt="logo" className="h-[30px] mt-5 w-auto lg:h-[32px]" /></Link>
-        <div className="flex">
+        <Link to="/"><img src={logo} alt="logo" className="h-[30px] w-auto lg:h-[32px]" /></Link>
+        <div className="flex justify-center items-center">
           <ul className="hidden lg:flex justify-center items-center">
             <li className="w-full text-left px-4">Product</li>
             <li className="w-full text-left px-4">Pricing</li>
@@ -50,7 +47,7 @@ const Nav = () => {
             <li className="w-full text-left px-4" onClick={() => {handleClose()}}><Link to="/support">Support</Link></li>
             <li className="w-full text-left px-4" onClick={() => {handleClose()}}><Link to="/about">About</Link></li>
             <li className="w-full">
-              <button type="button" className="rounded w-48 h-12 bg-[#ffb74d] hover:bg-[#e65100] hover:text-white">REQUEST DEMO</button>
+              <button type="button" className="rounded w-48 h-10 bg-accent hover:bg-secondary hover:text-white">REQUEST DEMO</button>
             </li>
           </ul>
           <div className="flex lg:hidden">
