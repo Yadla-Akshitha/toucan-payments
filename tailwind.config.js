@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         'primary': '#191612',
+        'primary2': '#232323',
         'secondary': '#e65100',
         'text': '#333333',
         'accent': '#ffb74d',
@@ -17,6 +18,8 @@ module.exports = {
         'bg-lightgrey': '#fbfbfb',
         'bg-lightgrey2': '#f7f7f7',
         'bg-yellow': '#ffa727',
+        'bg-black': '#666666',
+        'grey': '#989898',
       }
     },
   },
