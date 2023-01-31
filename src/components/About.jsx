@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 
 const About = () => {
   return (
-    <div className="pb-14">
+    <div className="pb-14 bg-bg-lightgrey2">
       <div className="bg-bg-yellow mt-14 px-4 lg:px-[25rem] lg:flex justify-center items-center">
         <div>
           <h1 className="font-semibold text-[26px] leading-tight pt-20">Our Mission is to Simplify Merchant Acquiring and Aggregation</h1>
@@ -14,10 +14,10 @@ const About = () => {
               <span className="text-white text-[32px] font-bold"><CountUp start={0} end={2019} /></span>
               <span className="text-[12px]">FOUNDED</span>
             </p>
-            <p className="flex flex-col items-start my-4">
+            <div className="flex flex-col items-start my-4">
               <p className="text-white text-[32px] font-bold">TEXAS<span className="text-[12px]">, USA</span></p>
               <span className="text-[12px]">HEAD QUATER</span>
-            </p>
+            </div>
           </div>
         </div>
         <img src={team_banner} alt="team_banner" className="w-8/12 mx-auto py-8"/>

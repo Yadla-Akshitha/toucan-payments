@@ -4,15 +4,16 @@ import toucanDashboard from "../assets/images/toucan_banner_1.png";
 import shopeefix from "../assets/images/Shopeefix_Logo.png";
 import Qfix from "../assets/images/Qfix_Navy_Logo.png";
 import bhagwaanji from "../assets/images/Bhagwaanji_logo.png";
-import { flexible_objects } from '../objects.jsx/flexibility';
+import { flexible_objects } from '../objects/flexibility';
 import sandbox from "../assets/images/icons/Libraries.svg";
 import API_integration from "../assets/images/icons/API_Inegration.svg";
 import Developer from "../assets/images/Developer.png";
 import end_to_end from "../assets/images/End-to-End_support.png";
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
   return (
-    <div className="bg-bg-lightgrey2 mt-20 lg:mt-14">
+    <div className="bg-bg-lightgrey2 mt-20 lg:mt-14 lg:pb-14">
       {/**Dashboard */}
       <div className="flex flex-col md:flex-row justify-center items-center md:pl-8">
         <div className="mx-4 mt-[60px] md:mt-0 text-left md:w-1/2 lg:pl-[23rem] lg:mx-0">
@@ -29,7 +30,7 @@ const Home = () => {
         </div>
       </div>
       {/** trusted brands */}
-      <div className="px-8 lg:px-[23rem] py-12 my-14 bg-bg-lightgrey">
+      <div className="px-8 lg:px-[25rem] py-12 my-14 bg-bg-lightgrey">
         <h2 className="text-gray-500 text-lg font-bold">Trusted by brands you know</h2>
         <div className="flex justify-center items-center md:justify-start my-4">
           <img src={shopeefix} alt="shopeefix" className="w-28 lg:w-40 m-2 lg:mr-6" />
@@ -38,8 +39,11 @@ const Home = () => {
         </div>
       </div>
       {/** powerful modules */}
-      <div className="">
-        <h3 className="text-secondary">Toucan Powerful Modules</h3>
+      <div className="lg:px-[25rem] px-10">
+        <Fade bottom>
+          <h3 className="text-secondary text-lg font-bold my-3">Toucan Powerful Modules</h3>
+        </Fade>
+        <h4 className="text-4xl font-bold my-2">Lead the new digital business landscape</h4>
       </div>
       {/** Why Toucan */}
       <div className="px-2 py-8 text-left lg:px-[25rem]">
