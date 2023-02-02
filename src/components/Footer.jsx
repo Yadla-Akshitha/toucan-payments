@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <hr className="bg-white h-1 border-none"/>
-      <div className="bg-bg-lightgrey2 lg:px-[25rem]">
+      <div className="bg-bg-lightgrey2 lg:px-16 xlp:px-[25rem]">
       <hr className="border border-0 border-b-2 border-dotted mt-4 p-4 border-bg-black"/>
       <div className="mt-20">
         <p>

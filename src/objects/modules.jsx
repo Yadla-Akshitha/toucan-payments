@@ -20,8 +20,13 @@ tokenization
 */
 
 import user from "../assets/images/icons/User_management_&_security.svg";
+import offers from "../assets/images/icons/Offers-amp.svg";
+import API from "../assets/images/icons/API-gateway.svg";
+import switching from "../assets/images/icons/Switching.svg";
+import acquirer from "../assets/images/icons/Acquirer-processing.svg";
+import merchant from "../assets/images/icons/Merchant-onboarding.svg"
 
-const modules = [
+export const modules = [
   {
     id: 0,
     icon: user,
@@ -30,16 +35,33 @@ const modules = [
   },
   {
     id: 1,
-    icon: user,
-    title: 'User Management and Security 1',
-    des: 'Toucan allows you to alter user access to the system depending on the roles and...'
+    icon: offers,
+    title: 'Offers and Promotions',
+    des: 'Cashbacks, EMIs and cross promotions are the new discounts and no one wants to stay...'
   },
   {
     id: 2,
-    icon: user,
-    title: 'User Management and Security 2',
-    des: 'Toucan allows you to alter user access to the system depending on the roles and...'
+    icon: API,
+    title: 'APIs',
+    des: 'Toucan offers modular architecture with open APIs for each business function....'
+  },
+  {
+    id: 3,
+    icon: switching,
+    title: 'Switching',
+    des: "Toucan's switching module helps rflect and complete transactions real tim..."
+  },
+  {
+    id: 4,
+    icon: acquirer,
+    title: 'Acquirer support',
+    des: 'The Acquirer Support Module enables acquirers tp seamlessly manage ...'
+  },
+  {
+    id: 5,
+    icon: merchant,
+    title: 'Merchant Onboarding',
+    des: 'While onboarding a merchant, be it on their own or with the assistance of an...'
   }
 ]
 
-export default modules;

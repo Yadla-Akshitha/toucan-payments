@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+  #about_banner:after {
+    content: "";
+    background: url(../assets/images/top-left.svg);
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 600px;
+    height: 600px;
+    border: 100px solid red;
+    opacity: 0.7;
+  }
+
+  #about_banner {
+    opacity: 1;
+  }
+}
