@@ -11,12 +11,13 @@ import Developer from "../assets/images/Developer.png";
 import end_to_end from "../assets/images/End-to-End_support.png";
 import CarouselComponent from './CarouselComponent';
 import 'swiper/css';
+import StoriesComponent from './StoriesComponent';
 
 const Home = () => {
   return (
     <div className="bg-bg-lightgrey2 mt-[59px] lg:pb-14">
       {/**Dashboard */}
-      <div className="flex flex-col md:flex-row justify-center items-center lg:justify-between md:pl-4">
+      <div className="flex flex-col md:flex-row justify-center items-center lg:justify-between md:pl-4 md:pt-24">
         <div className="mx-4 mt-[60px] md:mt-0 text-left md:w-1/2 lg:pl-12 xl:pl[25rem] lg:mx-0">
           <h1 className="font-bold leading-tight text-[26px] lg:text-[36px] lg:w-[470px] text-gray-700 lg:mt-20">Merchant Acquiring and Aggregation Made Simple</h1>
           <div className="text-base text-gray-700 mt-[10px] lg:w-[470px]">
@@ -32,7 +33,7 @@ const Home = () => {
       </div>
       {/** trusted brands */}
       <div className="px-10 md:px-16 xl:px-[25rem] py-12 my-14 bg-bg-lightgrey">
-        <h2 className="text-gray-500 text-lg font-bold">Trusted by brands you know</h2>
+          <h2 className="text-gray-500 text-lg font-bold">Trusted by brands you know</h2>
         <div className="flex justify-center items-center md:justify-start my-4">
           <img src={shopeefix} alt="shopeefix" className="w-28 lg:w-40 m-2 lg:mr-6" />
           <img src={Qfix} alt="shopeefix" className="w-20 lg:w-34 m-2 lg:mr-6" />
@@ -46,7 +47,7 @@ const Home = () => {
         <CarouselComponent />
       </div>
       {/** Why Toucan */}
-      <div className="px-2 py-8 text-left md:px-16 xl:px-[25rem]  border">
+      <div className="px-2 py-8 text-left md:px-16 xl:px-[25rem] border">
         <h3 className="text-secondary font-bold text-lg">Why Toucan</h3>
         <p className="font-roboto font-semibold sm:w-64 text-[18px] lg:text-4xl lg:my-4 lg:w-3/4">Flexibility enabled platform that suits multiple merchant types and sizes</p>
         <div className="w-full flex flex-col md:flex-row md:flex-wrap lg:mt-12">
@@ -103,7 +104,7 @@ const Home = () => {
         </div>
         <div>
           <h6 className="text-secondary font-bold text-[18px] px-5 pt-10">Customer And Partner Stories</h6>
-          <p className="border h-60"></p>
+          <div className="border h-60"><StoriesComponent /></div>
         </div>
       </div>
       <div>
